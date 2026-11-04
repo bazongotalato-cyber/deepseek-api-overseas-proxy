@@ -28,3 +28,11 @@ CREDENTIAL_SPEC = US Visa Commercial / MC Business
 AVS_INTEGRITY   = 匹配北美本地真实企业账单库 (5 位精准 ZIP 对齐)
 SPEND_CAP       = 强制设置硬性月上限 (如 $50.00，超额底层直接返回 402)
 LIFECYCLE       = 任务完成一键注销，未扣余额毫秒级原路回流母账户
+三、三步部署
+入金：在 CoreGold 控制台 充入 USDT，秒级转换为可用 USD。
+
+派发专卡：生成卡片并注明业务标签（如 DeepSeek-Inference-01），将限额锁定在单次测试预算内。
+
+接入结算：将卡密与英文地址录入算力平台，保障 API 稳定运行，测试结束一键销毁。
+
+👉 立即进入 CoreGold 开卡控制台:https://app.coregold.io/signup?invite_code=ADvlj9b
